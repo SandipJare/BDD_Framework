@@ -25,10 +25,10 @@ public class LoginPageClass extends BaseClass {
 	public void loginFunctionlaity(String UserName, String Passwd) {
 
 		// uname.sendKeys(UserName);
-		Wait.sendkeys(uname, UserName);
+		Wait.sendKeys(uname, UserName);
 
 		// pass.sendKeys(Passwd);
-		Wait.sendkeys(pass, Passwd);
+		Wait.sendKeys(pass, Passwd);
 
 	}
 

@@ -64,9 +64,9 @@ public class PIMPageClass extends BaseClass {
 
 		Wait.click(addEmplyeeButton);
 		Thread.sleep(3000);
-		Wait.sendkeys(empFirstname, fName);
+		Wait.sendKeys(empFirstname, fName);
 
-		Wait.sendkeys(empLastname, lName);
+		Wait.sendKeys(empLastname, lName);
 
 		Thread.sleep(3000);
 		Wait.click(empSaveButton);
