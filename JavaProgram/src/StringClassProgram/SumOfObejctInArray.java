@@ -8,7 +8,7 @@ public class SumOfObejctInArray {
 
 	public static void main(String[] args) {
 
-		int[] a = { 60, 70, 10, 20, 30, 40, 50 };
+		int[] a = { 10,90,60,60, 70, 10, 20, 30, 40, 50 };
 		int sum = 0;
 
 		List<Integer> arr = new ArrayList<Integer>();
