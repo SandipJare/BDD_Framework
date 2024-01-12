@@ -1,21 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="56.492" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.1" time="19.024">
+<testsuite name="Cucumber" time="46.753" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.1" time="20.295">
+<failure type="org.openqa.selenium.WebDriverException" message="unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=120.0.2210.121)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8cbf6d115ed3d8ad1edf3a4f923a8b13, get {url=https://www.facebook.com/reg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53574}, msedge: {msedgedriverVersion: 120.0.2210.121 (6086ec26a02..., userDataDir: C:\Users\SANDIP\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53574/devtoo..., se:cdpVersion: 120.0.2210.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cbf6d115ed3d8ad1edf3a4f923a8b13">
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=120.0.2210.121)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8cbf6d115ed3d8ad1edf3a4f923a8b13, get {url=https://www.facebook.com/reg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53574}, msedge: {msedgedriverVersion: 120.0.2210.121 (6086ec26a02..., userDataDir: C:\Users\SANDIP\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53574/devtoo..., se:cdpVersion: 120.0.2210.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cbf6d115ed3d8ad1edf3a4f923a8b13
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at BaseLayer.BaseClass.initilization(BaseClass.java:37)
+	at stepsDefinition.FacebookPageResgister.user_is_on_register_page(FacebookPageResgister.java:17)
+	at ?.user is on register page(file:///E:/WorkSpace_BDD_Jan24/com.Cucucmber_Tutorial/AllFeatureFiles/FaceBook.feature:4)
+]]>
+</failure>
 <system-out><![CDATA[
-Given user is on register page..............................................passed
-When user entered "sanjay" ,"Manjarekar","sanjay@gmail.com","sanjay@123","sanjay@gmail.com","15","Jun", "2000" and "Male".passed
+Given user is on register page..............................................failed
+When user entered "sanjay" ,"Manjarekar","sanjay@gmail.com","sanjay@123","sanjay@gmail.com","15","Jun", "2000" and "Male".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.2" time="18.737">
+<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.2" time="10.705">
+<failure type="org.openqa.selenium.WebDriverException" message="unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=120.0.2210.121)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fa2e44f86e96c4d468556ee2dc6b5920, get {url=https://www.facebook.com/reg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53595}, msedge: {msedgedriverVersion: 120.0.2210.121 (6086ec26a02..., userDataDir: C:\Users\SANDIP\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53595/devtoo..., se:cdpVersion: 120.0.2210.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa2e44f86e96c4d468556ee2dc6b5920">
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=120.0.2210.121)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fa2e44f86e96c4d468556ee2dc6b5920, get {url=https://www.facebook.com/reg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53595}, msedge: {msedgedriverVersion: 120.0.2210.121 (6086ec26a02..., userDataDir: C:\Users\SANDIP\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53595/devtoo..., se:cdpVersion: 120.0.2210.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa2e44f86e96c4d468556ee2dc6b5920
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at BaseLayer.BaseClass.initilization(BaseClass.java:37)
+	at stepsDefinition.FacebookPageResgister.user_is_on_register_page(FacebookPageResgister.java:17)
+	at ?.user is on register page(file:///E:/WorkSpace_BDD_Jan24/com.Cucucmber_Tutorial/AllFeatureFiles/FaceBook.feature:4)
+]]>
+</failure>
 <system-out><![CDATA[
-Given user is on register page..............................................passed
-When user entered "Ajay" ,"Ahire","ajay@gmail.com","ajay@123","ajay@gmail.com","20","May", "2002" and "Female".passed
+Given user is on register page..............................................failed
+When user entered "Ajay" ,"Ahire","ajay@gmail.com","ajay@123","ajay@gmail.com","20","May", "2002" and "Female".skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.3" time="18.313">
+<testcase classname="Test the Facebook Application" name="Test register page functionality - Example #1.3" time="14.349">
+<failure type="org.openqa.selenium.WebDriverException" message="unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=120.0.2210.121)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c04d3084663ee61a1bc0277bb52aa0bb, get {url=https://www.facebook.com/reg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53617}, msedge: {msedgedriverVersion: 120.0.2210.121 (6086ec26a02..., userDataDir: C:\Users\SANDIP\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53617/devtoo..., se:cdpVersion: 120.0.2210.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c04d3084663ee61a1bc0277bb52aa0bb">
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: MicrosoftEdge=120.0.2210.121)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c04d3084663ee61a1bc0277bb52aa0bb, get {url=https://www.facebook.com/reg}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53617}, msedge: {msedgedriverVersion: 120.0.2210.121 (6086ec26a02..., userDataDir: C:\Users\SANDIP\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53617/devtoo..., se:cdpVersion: 120.0.2210.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c04d3084663ee61a1bc0277bb52aa0bb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at BaseLayer.BaseClass.initilization(BaseClass.java:37)
+	at stepsDefinition.FacebookPageResgister.user_is_on_register_page(FacebookPageResgister.java:17)
+	at ?.user is on register page(file:///E:/WorkSpace_BDD_Jan24/com.Cucucmber_Tutorial/AllFeatureFiles/FaceBook.feature:4)
+]]>
+</failure>
 <system-out><![CDATA[
-Given user is on register page..............................................passed
-When user entered "Ganesh" ,"shinde","ganesh@gmail.com","ganga@123","ganesh@gmail.com","25","Apr", "2001" and "custom".passed
+Given user is on register page..............................................failed
+When user entered "Ganesh" ,"shinde","ganesh@gmail.com","ganga@123","ganesh@gmail.com","25","Apr", "2001" and "custom".skipped
 ]]></system-out>
 </testcase>
 </testsuite>

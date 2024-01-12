@@ -112,4 +112,19 @@ public class Wait extends BaseClass {
 			}
 		}
 	}
+	
+	
+	public static WebElement visibilityStatus(WebElement wb) {
+		// create object of WebDriverWait class by using driver instance and Duration in
+		// time.
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
+		// use visibilityOf() method to check element is visible or not
+		WebElement waitwb = wait.until(ExpectedConditions.visibilityOf(wb));
+
+		// click on element by using click method
+		waitwb.click();
+		return waitwb;
+
+	}
 }

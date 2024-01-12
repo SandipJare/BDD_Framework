@@ -16,7 +16,10 @@ public class ConintTheCharinString {
 		for (char str1 : str.toCharArray()) {
 
 			if (mp.containsKey(str1)) {
-				mp.put(str1, mp.get(str1) + 1);
+				int count=mp.get(str1);
+				count++;
+				//mp.put(str1, mp.get(str1) + 1);
+				mp.put(str1, count);
 
 			} else {
 				mp.put(str1, 1);
