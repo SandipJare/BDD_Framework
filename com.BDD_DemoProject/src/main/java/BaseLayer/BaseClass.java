@@ -25,6 +25,7 @@ public class BaseClass {
 			e.printStackTrace();
 		}
 	}
+
 	public static void intilization() {
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
@@ -33,6 +34,10 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.get(prop.getProperty("url"));
 
+	}
+
+	public static void tearDown() {
+		driver.quit();
 	}
 
 }

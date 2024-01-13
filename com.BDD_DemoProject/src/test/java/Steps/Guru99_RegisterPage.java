@@ -6,6 +6,7 @@ import org.testng.Assert;
 
 import BaseLayer.BaseClass;
 import PageLayer.RegisterPage;
+import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
@@ -88,8 +89,15 @@ public class Guru99_RegisterPage extends BaseClass {
 
 		System.out.println(scenario.getName());
 		System.out.println(scenario.getId());
-		
+
 		scenario.attach(b, "image/png", scenario.getId());
 
 	}
+
+	@After
+
+	public static void before_or_after_all() {
+		BaseClass.tearDown();
+	}
+
 }
