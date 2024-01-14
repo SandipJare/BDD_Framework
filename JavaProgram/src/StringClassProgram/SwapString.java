@@ -27,6 +27,7 @@ public class SwapString {
 		
 		b=a.substring(0,a.length()-b.length());
 		
+		
 		System.out.println(a.length());
 		System.out.println(b.length());
 		
