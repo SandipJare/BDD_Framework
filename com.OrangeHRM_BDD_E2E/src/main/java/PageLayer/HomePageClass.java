@@ -28,7 +28,6 @@ public class HomePageClass extends BaseClass {
 	public String getTitle() {
 
 		return driver.getTitle();
-
 	}
 
 	public String homePageUrl() {
@@ -57,7 +56,7 @@ public class HomePageClass extends BaseClass {
 			System.out.println(pageLinks);
 
 			if (pageLinks.contains("pim")) {
-			//	Wait.click(linkwb);
+				// Wait.click(linkwb);
 				linkwb.click();
 			}
 		}
